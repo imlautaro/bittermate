@@ -27,6 +27,11 @@ export default defineComponent({
 				label: 'Home',
 				to: '/',
 			},
+			{
+				icon: 'user',
+				label: 'Account',
+				to: '/account',
+			},
 		])
 
 		return { items }
