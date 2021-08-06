@@ -11,7 +11,7 @@ const config: NuxtConfig = {
 			],
 		}, // https://github.com/nuxt/nuxt.js/issues/9224#issuecomment-893263501
 	},
-	buildModules: ['@nuxt/typescript-build'],
+	buildModules: ['@nuxt/typescript-build', '@nuxtjs/composition-api/module'],
 	components: true,
 	srcDir: 'src',
 }
