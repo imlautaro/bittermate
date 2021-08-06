@@ -19,6 +19,7 @@ const config: NuxtConfig = {
 		'@nuxtjs/pwa',
 	],
 	components: true,
+	css: ['~/assets/css/main.css'],
 	googleFonts: {
 		display: 'swap',
 		families: {
