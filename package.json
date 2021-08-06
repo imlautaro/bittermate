@@ -2,7 +2,7 @@
 	"name": "bittermate",
 	"version": "1.0.0",
 	"license": "MIT",
-	"main": "nuxt.config.js",
+	"main": "nuxt.config.ts",
 	"scripts": {
 		"dev": "nuxt",
 		"build": "nuxt build",
@@ -10,5 +10,9 @@
 	},
 	"dependencies": {
 		"nuxt": "^2.15.7"
+	},
+	"devDependencies": {
+		"@nuxt/types": "^2.15.7",
+		"@nuxt/typescript-build": "^2.1.0"
 	}
 }
