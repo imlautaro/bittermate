@@ -24,6 +24,9 @@ const config: NuxtConfig = {
 			Ubuntu: [400, 500, 700],
 		},
 	},
+	head: {
+		script: [{ src: 'https://unpkg.com/phosphor-icons' }],
+	},
 	srcDir: 'src',
 }
 
