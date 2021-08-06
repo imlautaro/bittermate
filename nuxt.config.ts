@@ -16,6 +16,7 @@ const config: NuxtConfig = {
 		'@nuxtjs/composition-api/module',
 		'nuxt-windicss',
 		'@nuxtjs/google-fonts',
+		'@nuxtjs/pwa',
 	],
 	components: true,
 	googleFonts: {
@@ -26,6 +27,12 @@ const config: NuxtConfig = {
 	},
 	head: {
 		script: [{ src: 'https://unpkg.com/phosphor-icons' }],
+	},
+	pwa: {
+		manifest: {
+			name: 'Bittermate',
+			short_name: 'Bittermate',
+		},
 	},
 	srcDir: 'src',
 }

@@ -16,6 +16,7 @@
 		"@nuxt/typescript-build": "^2.1.0",
 		"@nuxtjs/composition-api": "^0.26.0",
 		"@nuxtjs/google-fonts": "^1.3.0",
+		"@nuxtjs/pwa": "^3.3.5",
 		"nuxt-windicss": "^1.2.1"
 	}
 }
