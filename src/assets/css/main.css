@@ -27,3 +27,30 @@
 		transition: background-color 5000s ease-in-out 0s;
 	}
 }
+
+@layer components {
+	.btn {
+		@apply duration-100 flex font-medium items-center justify-center px-4 py-2 rounded-md space-x-2 text-center;
+	}
+	.btn:disabled {
+		@apply bg-gray-200 shadow-none text-gray-400 !important;
+	}
+	.btn--primary {
+		@apply bg-primary-600 shadow-md text-white;
+		&:hover {
+			@apply bg-primary-500;
+		}
+		&:active {
+			@apply bg-primary-700;
+		}
+	}
+	.btn--secondary {
+		@apply border;
+		&:hover {
+			@apply bg-gray-900/5;
+		}
+		&:active {
+			@apply bg-gray-900/10;
+		}
+	}
+}
