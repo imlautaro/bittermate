@@ -1,0 +1,14 @@
+{
+	"name": "bittermate",
+	"version": "1.0.0",
+	"license": "MIT",
+	"main": "nuxt.config.js",
+	"scripts": {
+		"dev": "nuxt",
+		"build": "nuxt build",
+		"start": "nuxt start"
+	},
+	"dependencies": {
+		"nuxt": "^2.15.7"
+	}
+}

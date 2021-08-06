@@ -1,0 +1,9 @@
+# NodeJS
+node_modules/
+
+# NuxtJS
+.nuxt/
+dist/
+
+# General
+.env
