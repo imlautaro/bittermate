@@ -32,6 +32,7 @@ const config: NuxtConfig = {
 		manifest: {
 			name: 'Bittermate',
 			short_name: 'Bittermate',
+			theme_color: '#0284C7',
 		},
 	},
 	srcDir: 'src',
