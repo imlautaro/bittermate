@@ -1,5 +1,5 @@
 <template>
-	<nav class="flex md:hidden p-1 space-x-1 shadow" role="navigation">
+	<nav class="bg-white flex md:hidden p-1 space-x-1 shadow" role="navigation">
 		<ui-bottom-navigation-item
 			v-for="(item, index) in items"
 			:key="index"
