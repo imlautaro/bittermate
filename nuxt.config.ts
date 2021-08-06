@@ -15,8 +15,15 @@ const config: NuxtConfig = {
 		'@nuxt/typescript-build',
 		'@nuxtjs/composition-api/module',
 		'nuxt-windicss',
+		'@nuxtjs/google-fonts',
 	],
 	components: true,
+	googleFonts: {
+		display: 'swap',
+		families: {
+			Ubuntu: [400, 500, 700],
+		},
+	},
 	srcDir: 'src',
 }
 
