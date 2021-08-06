@@ -1,5 +1,5 @@
 <template>
-	<nav class="bg-primary-600 shadow py-4 text-white" role="navigation">
+	<nav class="bg-primary-600 shadow py-4 text-white z-10" role="navigation">
 		<div
 			class="container flex items-center justify-center md:justify-between"
 		>
