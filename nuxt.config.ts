@@ -106,10 +106,12 @@ const config: NuxtConfig = {
 		middleware: 'auth',
 	},
 	srcDir: 'src',
+	ssr: false,
 	supabase: {
 		url: process.env.SUPABASE_URL,
 		key: process.env.SUPABASE_KEY,
 	},
+	target: 'static',
 }
 
 export default config
