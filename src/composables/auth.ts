@@ -1,20 +1,5 @@
-import { reactive, useContext } from '@nuxtjs/composition-api'
-
-class State {
-	pending: boolean
-	error: string
-	success: string
-	constructor() {
-		this.pending = false
-		this.error = ''
-		this.success = ''
-	}
-	reset() {
-		this.pending = false
-		this.error = ''
-		this.success = ''
-	}
-}
+import { reactive, useContext, useRouter } from '@nuxtjs/composition-api'
+import { State } from '~/utils/state'
 
 const useAuth = () => {
 	const { $auth, $axios } = useContext()
@@ -25,6 +10,8 @@ const useAuth = () => {
 	})
 
 	const loginState = reactive(new State())
+
+	const router = useRouter()
 
 	const userLogin = () => {
 		loginState.reset()
@@ -56,6 +43,7 @@ const useAuth = () => {
 			.$post('/auth/v1/signup', register)
 			.then(() => {
 				registerState.success = 'Successfully registered user!'
+				router.push('/login')
 			})
 			.catch(() => {
 				registerState.error =

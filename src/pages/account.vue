@@ -1,5 +1,6 @@
 <template>
-	<div class="container flex flex-col py-4 space-y-4">
+	<div class="container max-w-screen-sm flex flex-col py-4 space-y-4">
+		<content-profile />
 		<ui-card>
 			<div class="p-4">
 				<span class="font-bold text-xl">Account details</span>

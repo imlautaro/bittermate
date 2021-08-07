@@ -10,6 +10,18 @@ A Web platform where users can find courses and tutorials about programming host
 
 This project was started to participate in the [Supabase Hackathon](https://supabase.io/blog/2021/07/30/1-the-supabase-hackathon).
 
+## Details to be considered
+
+Since this project was created in a short time for the Supabase Hackathon, it is still in a very alpha version. Here are some details to keep in mind:
+
+-   The course search engine itself will be public in the future.
+-   The authentication interface does not handle error messages.
+-   New accounts do not require confirmation.
+-   The search engine is a bit poor, it only filters by words in the title of the courses.
+-   ...and maybe you will find some bugs out there.
+
+Any problem you detect please create an issue describing what it is about (for now there is no scheme to follow to create issues so feel free to use the format you want).
+
 ## Run Locally
 
 :warning: To run this project correctly it is necessary to connect it with its backend in Supabase. I am going to work to provide you with a way to clone the backend environment soon.

@@ -94,7 +94,7 @@ const config: NuxtConfig = {
 	head: {
 		script: [{ src: 'https://unpkg.com/phosphor-icons' }],
 	},
-	modules: ['@nuxtjs/axios', '@nuxtjs/auth-next'],
+	modules: ['@nuxtjs/axios', '@nuxtjs/auth-next', '@nuxtclub/supabase'],
 	pwa: {
 		manifest: {
 			name: 'Bittermate',
@@ -106,6 +106,10 @@ const config: NuxtConfig = {
 		middleware: 'auth',
 	},
 	srcDir: 'src',
+	supabase: {
+		url: process.env.SUPABASE_URL,
+		key: process.env.SUPABASE_KEY,
+	},
 }
 
 export default config

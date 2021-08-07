@@ -53,4 +53,22 @@
 			@apply bg-gray-900/10;
 		}
 	}
+	.icon-btn {
+		@apply duration-100 flex p-2 rounded-md text-gray-900/50;
+		&:hover {
+			@apply hover:bg-gray-900/5;
+		}
+		&:active {
+			@apply bg-gray-900/10 dark:text-white text-gray-900 !important;
+		}
+	}
+	.dark .icon-btn {
+		@apply text-white/50 !important;
+		&:hover {
+			@apply bg-white/5 !important;
+		}
+		&:active {
+			@apply bg-white/10 text-white !important;
+		}
+	}
 }

@@ -31,6 +31,11 @@ export default defineComponent({
 				to: '/',
 			},
 			{
+				icon: 'archive',
+				label: 'Collections',
+				to: '/collections',
+			},
+			{
 				icon: 'user',
 				label: 'Account',
 				to: '/account',
