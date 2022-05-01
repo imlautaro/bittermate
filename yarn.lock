@@ -5171,6 +5171,13 @@ wide-align@^1.1.0, wide-align@^1.1.2:
   dependencies:
     string-width "^1.0.2 || 2 || 3 || 4"
 
+windi-native@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/windi-native/-/windi-native-0.2.0.tgz#fb9c3c413fe34d3d20a821f333fa12524b58a17f"
+  integrity sha512-7hpJYbonOiaKIhDsp9dGqxUBIApXttWZEgR+yOTJoqB8bGwvugSoi9v2W636AtlZx105Ic3w3hZDtuUTm97ApA==
+  dependencies:
+    windicss "^3.1.8"
+
 windicss-analysis@^0.3.5:
   version "0.3.5"
   resolved "https://registry.yarnpkg.com/windicss-analysis/-/windicss-analysis-0.3.5.tgz#ab9a82e1410197e38d1624dbef93709d494b24af"
@@ -5198,7 +5205,7 @@ windicss-webpack-plugin@^1.7.2:
     webpack-virtual-modules "^0.4.3"
     windicss "^3.5.1"
 
-windicss@^3.5.1:
+windicss@^3.1.8, windicss@^3.5.1:
   version "3.5.1"
   resolved "https://registry.yarnpkg.com/windicss/-/windicss-3.5.1.tgz#5e279c21179dbc122122d0b3a3a2651511249241"
   integrity sha512-E1hYZATcZFci/XhGS0sJAMRxULjnK+glNukE78Ku7xeb3jxgMY55fFOdIrav+GjQCsgR+IZxPq9/DwmO6eyc4Q==
