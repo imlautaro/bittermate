@@ -7,7 +7,7 @@
 			crossorigin="anonymous"
 		/>
 		<Link
-			href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;600;700&family=Lexend:wght@400;600;700&display=swap"
+			href="https://fonts.googleapis.com/css2?family=Encode+Sans:wght@500;600;700&family=Lexend:wght@400;600;700&display=swap"
 			rel="stylesheet"
 		/>
 	</Head>
